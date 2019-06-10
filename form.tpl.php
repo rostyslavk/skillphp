@@ -10,8 +10,9 @@
     <p> <?= $message ?></p>
     <?php endif?>
 
-
-<form method="post" action="form.php">
+<h1>Регистрация</h1>
+<? $form->render()?>
+ <!-- <form method="post" action="form.php">
     <label for="first name">Имя</label>
     <input type="text" id="first name" name="first_name">
     <br>
@@ -25,7 +26,7 @@
     <input type="password" id="password" name="password">
     <br>
     <button type="submit">Зарегистрироваться</button>
-</form>
+  </form>
 
 
 
