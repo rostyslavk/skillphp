@@ -1,0 +1,7 @@
+
+table {
+   min-width:40%; /* Ширина таблицы */
+    }
+th,td{
+    border: 1px solid;
+}
